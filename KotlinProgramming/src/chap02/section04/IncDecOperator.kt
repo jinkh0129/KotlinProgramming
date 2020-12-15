@@ -1,0 +1,13 @@
+package chap02.section04
+
+fun main() {
+    var num1 = 10;
+    var num2 = 10;
+    var result1 = ++num1; // 증가 연산자를 앞에 쓰면 num1을 증가한 후 대입한다.
+    var result2 = num2++; // 증가 연산자를 뒤에 쓰면 먼저 num2를 result2에 대입을 하고 증가시킨다. 즉 result2는 10, num2는 11이 된다.
+
+    println("result1 : $result1");
+    println("result2 : $result2");
+    println("num1 : $num1");
+    println("num2 : $num2");
+}
