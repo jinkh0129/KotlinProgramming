@@ -30,6 +30,16 @@ class Bird{
         this.beak=beak
         this.color=color
     }
+    /*
+    constructor(_name:String, _wing:Int, _beak:String, _color:String){
+        name=_name
+        wing=_wing
+        beak=_beak
+        color=_color
+    }
+    --> this키워드를 사용하지 않으려면 프로퍼티와 매개변수를 구분하기 위해 다른 이름을 사용할 수 있다.
+    다른 이름을 구성할 때는 매개변수 이름 앞에 언더스코어(_)를 이용할 수 있다.
+    */
     
     // 메서드
     fun fly() = println("Fly wing : $wing")
@@ -44,3 +54,4 @@ fun main() {
     coco.fly()
     coco.sing(3)
 }
+
